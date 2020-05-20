@@ -1,0 +1,69 @@
+<swiper style="height:{{height}}px">
+  <!-- <swiper-item  class="index">
+    <image src="../../img/logo02.png" mode="widthFix" class="index_photo"></image>
+    <view class="index_cover">
+      <text class="index_cover_name">{{name}}</text>
+      <text class="index_cover_spell">{{spell}}</text>
+    </view>
+    <view class="index_circle-big"></view>
+    <view class="index_circle-medium"></view>
+    <view class="index_circle-small"></view>
+    <view class="index_work">
+      <view class="index_work_job">{{job}}</view>
+      <view class="index_work_exp">{{exp}}</view>
+    </view>
+    <view class="index_navigation">
+      <view class="index_navigation-txt">我的简历</view>
+      
+      <image src="../../img/arrow-right.png" class="index_navigation-arrow" mode="widthFix" />
+    </view>
+  </swiper-item> -->
+  <swiper-item class="resume">
+    <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
+      <view class="resume_con">
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">1</view>
+            <view class="resume_con_secinfo-title">基本资料</view>
+          </view>
+          <view class="resume_con_col resume_con_col2">
+            <text class="resume_con_col-info">姓名:  {{name}}</text>
+            <text class="resume_con_col-info">电话:  {{tel}}</text>
+          </view>
+          <view class="resume_con_col resume_con_col2">
+            <text class="resume_con_col-info">性别:  {{sex}}</text>
+            <text class="resume_con_col-info">年龄:  {{age}}</text>
+          </view>
+          <view class="resume_con_col resume_con_col1">
+            <text class="resume_con_col-info">邮箱:  {{email}}</text>
+          </view>
+          <view class="resume_con_col resume_con_col1">
+            <text class="resume_con_col-info">住址:  {{address}}</text>
+          </view>                                      
+        </view>
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">2</view>
+            <view class="resume_con_secinfo-title">主要技能</view>
+          </view>
+          <view class="resume_con_skillinfo" wx:for="{{skill}}"  wx:key="item">
+            <text class="resume_con_skillinfo-name">{{item.name}}</text>
+            <progress class="resume_con_skillinfo-progress" active activeColor='{{item.color}}'  percent="{{item.percent}}" stroke-width="6" />
+
+
+
+          </view>
+        </view>
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq"></view>
+            <view class="resume_con_secinfo-title"></view>
+          </view>
+        </view>
+      </view>
+
+    </scroll-view>
+
+
+  </swiper-item>
+</swiper>

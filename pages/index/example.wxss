@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse;+justify-content: flex-end;  从右往左的末端等于在左侧 */ 
+  
+  
+  
+  
+    /* 起点对齐，左对齐 */
+    /* justify-content: flex-start; */
+    /* 起点对齐，右对齐 */
+    /* justify-content: flex-end; */
+    /* 居中对齐 */
+    /* justify-content: center; */
+    /* 两端对齐 */
+    /* justify-content: space-between; */
+    /* 间距相等 */
+    justify-content: space-around;
+  
+    background-color: #ccc;
+  
+    height: 200px;
+  
+    /* 垂直方向顶端对齐 */
+    /* align-items: flex-start; */
+  
+    /* 垂直方向底部对齐 */
+    align-items: flex-end;
+  
+    /* 垂直居中对齐 */
+    align-items: center;
+  
+    /* 拉伸子控件顶满container,子控件高度设置auto */
+    align-items: stretch;
+    
+    /* 文字基线对齐 */
+    align-items: baseline;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  .s1{
+    width: 50px;
+    height: 100px;
+    background-color: #ff9165d8;
+    font-size:30px;
+    /* height: auto; */
+  }
+  .s2{
+    width: 50px;
+    height: 100px;
+    background-color: #28c581c9;
+    /* height: auto; */
+    /* flex-grow: 1; */   /* 撑满*/ 
+    
+  }
+  .s3{
+    width: 50px;
+    height: 100px;
+    background-color:#4ed9ffe7;
+    /* height: auto; */
+    /* flex-grow: 1; */   /* 撑满*/ 
+  }
+  .s4{
+    width: 50px;
+    height: 100px;
+    background-color: #cb5eed;
+    /* height: auto; */
+  }
