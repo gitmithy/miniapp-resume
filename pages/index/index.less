@@ -192,7 +192,47 @@
     }
     &_work{
       font-size: 24rpx;
-    }    
+    }
+    &_panel{
+      margin: 0 auto;
+      padding: 0.2rem 0.35rem;
+      column-count: 2;
+      /* column-width: 3.2rem; */
+      column-gap: 0.2rem;
+      &-block{
+        margin-bottom: 10px;
+        break-inside: avoid;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 0.1rem;
+        box-shadow: 2px 2px 5px #ddd;
+              
+      }
+      &-blockimg{
+        image{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &-blockdesc{
+        padding: 5rpx;
+      }
+      &-blockdesctitle{
+        display: block;
+        width: 100%;
+        font-size: 24rpx;
+        color: #222;
+        // line-height: 5rpx;
+      }
+      &-blockdescdesc{
+        display: block;
+        width: 100%;
+        font-size: 24rpx;
+        line-height: 30rpx;
+      }      
+    }
+    
+
   }
 }
 .page{

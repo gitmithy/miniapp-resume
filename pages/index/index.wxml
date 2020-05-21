@@ -91,7 +91,7 @@
 
 
         </view> 
-        <text class="page">1/4</text>       
+        <text class="page">1/6</text>       
       </view>
 
     </scroll-view>
@@ -135,7 +135,7 @@
 
 
         </view> 
-        <text class="page">2/4</text>       
+        <text class="page">2/6</text>       
       </view>
 
     </scroll-view>
@@ -170,7 +170,7 @@
 
 
         </view> 
-        <text class="page">3/4</text>       
+        <text class="page">3/6</text>       
       </view>
 
     </scroll-view>
@@ -200,7 +200,68 @@
 
 
         </view> 
-        <text class="page">4/4</text>       
+        <text class="page">4/6</text>       
+      </view>
+
+    </scroll-view>
+
+
+  </swiper-item>
+  <swiper-item class="resume">
+    <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
+      <view class="resume_con">
+        <view  class="resume_con_sec">
+
+
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">7</view>
+            <view class="resume_con_secinfo-title">项目展示(部分)</view>
+          </view>
+
+
+          <view class="resume_con_panel"  >
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="../../img/work/1.jpg"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">test</text>
+                <text class="resume_con_panel-blockdescdesc">该系统是针对中小学生提供的k13在线教育系统</text>
+              </view>
+            </view>
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="../../img/work/2.jpg"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle"></text>
+                <text class="resume_con_panel-blockdesc"></text>
+              </view>
+            </view>
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="../../img/work/3.jpg"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle"></text>
+                <text class="resume_con_panel-blockdesc"></text>
+              </view>
+            </view>
+
+
+
+            
+          </view>
+
+
+        </view> 
+        <text class="page">5/6</text>       
       </view>
 
     </scroll-view>
@@ -213,28 +274,57 @@
         <view  class="resume_con_sec">
           <view class="resume_con_secinfo">
             <view class="resume_con_secinfo-seq">7</view>
-            <view class="resume_con_secinfo-title">项目展示(部分)</view>
+            <view class="resume_con_secinfo-title">开源项目</view>
           </view>
 
 
-          <view class="resume_con_education resume_con_work"  >
+          <view class="resume_con_panel"  >
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="../../img/work/1.jpg"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">test</text>
+                <text class="resume_con_panel-blockdescdesc">该系统是针对中小学生提供的k13在线教育系统</text>
+              </view>
+            </view>
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="../../img/work/2.jpg"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle"></text>
+                <text class="resume_con_panel-blockdesc"></text>
+              </view>
+            </view>
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="../../img/work/3.jpg"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle"></text>
+                <text class="resume_con_panel-blockdesc"></text>
+              </view>
+            </view>
 
 
 
-
-
-            <rich-text class="resume_con_education-desc">{{introduction}}</rich-text>
-
-
+            
           </view>
 
 
         </view> 
-        <text class="page">4/4</text>       
+        <text class="page">6/6</text>       
       </view>
 
     </scroll-view>
 
 
-  </swiper-item>          
+  </swiper-item>             
 </swiper>
