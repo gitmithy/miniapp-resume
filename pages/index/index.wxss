@@ -144,3 +144,50 @@
   display: block;
   margin-bottom: 10rpx;
 }
+.resume_con_education {
+  font-size: 32rpx;
+  color: #222;
+  border-bottom: 1rpx dashed #999;
+  padding: 10rpx 0;
+}
+.resume_con_education:last-of-type {
+  border-bottom: none;
+}
+.resume_con_education-school {
+  font-size: 32rpx;
+  margin: 10rpx 0;
+}
+.resume_con_education-schoolimg {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.resume_con_education-row {
+  display: flex;
+  justify-content: space-between;
+}
+.resume_con_education-bookimg {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.resume_con_education-calendarimg {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.resume_con_education-desc {
+  color: #999;
+  line-height: 1.5;
+}
+.resume_con_work {
+  font-size: 24rpx;
+}
+.page {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #222;
+  font-size: 32rpx;
+  padding-bottom: 20rpx;
+}

@@ -1,5 +1,5 @@
 <swiper style="height:{{height}}px">
-  <!-- <swiper-item  class="index">
+  <swiper-item  class="index">
     <image src="../../img/logo02.png" mode="widthFix" class="index_photo"></image>
     <view class="index_cover">
       <text class="index_cover_name">{{name}}</text>
@@ -17,7 +17,7 @@
       
       <image src="../../img/arrow-right.png" class="index_navigation-arrow" mode="widthFix" />
     </view>
-  </swiper-item> -->
+  </swiper-item>
   <swiper-item class="resume">
     <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
       <view class="resume_con">
@@ -49,21 +49,192 @@
           <view class="resume_con_skillinfo" wx:for="{{skill}}"  wx:key="item">
             <text class="resume_con_skillinfo-name">{{item.name}}</text>
             <progress class="resume_con_skillinfo-progress" active activeColor='{{item.color}}'  percent="{{item.percent}}" stroke-width="6" />
-
-
-
           </view>
         </view>
+        <!-- <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">3</view>
+            <view class="resume_con_secinfo-title">项目经验</view>
+          </view>
+        </view> -->
         <view  class="resume_con_sec">
           <view class="resume_con_secinfo">
-            <view class="resume_con_secinfo-seq"></view>
-            <view class="resume_con_secinfo-title"></view>
+            <view class="resume_con_secinfo-seq">3</view>
+            <view class="resume_con_secinfo-title">教育经历</view>
           </view>
-        </view>
+
+
+          <view class="resume_con_education" wx:for="{{education}}" wx:key="item" >
+
+
+            <view class="resume_con_education-school">
+              <image class="resume_con_education-schoolimg" src="../../img/icon_school.png" />
+              <!-- <image src="" /> -->
+              <text class="">{{item.school}}</text>
+            </view>
+
+
+            <view class="resume_con_education-row">
+              <view class="resume_con_education-rowinfo">
+                <image class="resume_con_education-bookimg" src="../../img/icon_book.png" />
+                <text >{{item.major}}</text>
+              </view>
+              <view class="resume_con_education-rowinfo">
+                <image class="resume_con_education-calendarimg" src="../../img/icon_calendar.png" />
+                <text >{{item.year}}</text>
+              </view>              
+            </view>
+            <rich-text class="resume_con_education-desc">{{item.desc}}</rich-text>
+
+
+          </view>
+
+
+        </view> 
+        <text class="page">1/4</text>       
       </view>
 
     </scroll-view>
 
 
   </swiper-item>
+  <swiper-item class="resume">
+    <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
+      <view class="resume_con">
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">4</view>
+            <view class="resume_con_secinfo-title">工作经历</view>
+          </view>
+
+
+          <view class="resume_con_education resume_con_work" wx:for="{{work}}" wx:key="item" >
+
+
+            <view class="resume_con_education-school">
+              <image class="resume_con_education-schoolimg" src="../../img/icon_company.png" />
+              <!-- <image src="" /> -->
+              <text class="">{{item.company}}</text>
+            </view>
+
+
+            <view class="resume_con_education-row">
+              <view class="resume_con_education-rowinfo">
+                <image class="resume_con_education-bookimg" src="../../img/icon_job.png" />
+                <text >{{item.job}}</text>
+              </view>
+              <view class="resume_con_education-rowinfo">
+                <image class="resume_con_education-calendarimg" src="../../img/icon_calendar.png" />
+                <text >{{item.year}}</text>
+              </view>              
+            </view>
+            <rich-text class="resume_con_education-desc">{{item.desc}}</rich-text>
+
+
+          </view>
+
+
+        </view> 
+        <text class="page">2/4</text>       
+      </view>
+
+    </scroll-view>
+
+
+  </swiper-item>
+  <swiper-item class="resume">
+    <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
+      <view class="resume_con">
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">5</view>
+            <view class="resume_con_secinfo-title">项目经历</view>
+          </view>
+
+
+          <view class="resume_con_education resume_con_work" wx:for="{{project}}" wx:key="item" >
+
+
+            <view class="resume_con_education-school">
+              <image class="resume_con_education-schoolimg" src="../../img/icon_computer.png" />
+              <!-- <image src="" /> -->
+              <text class="">{{item.name}}</text>
+            </view>
+
+
+
+            <rich-text class="resume_con_education-desc">{{item.desc}}</rich-text>
+
+
+          </view>
+
+
+        </view> 
+        <text class="page">3/4</text>       
+      </view>
+
+    </scroll-view>
+
+
+  </swiper-item>
+  <swiper-item class="resume">
+    <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
+      <view class="resume_con">
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">6</view>
+            <view class="resume_con_secinfo-title">自我评价</view>
+          </view>
+
+
+          <view class="resume_con_education resume_con_work"  >
+
+
+
+
+
+            <rich-text class="resume_con_education-desc">{{introduction}}</rich-text>
+
+
+          </view>
+
+
+        </view> 
+        <text class="page">4/4</text>       
+      </view>
+
+    </scroll-view>
+
+
+  </swiper-item>
+  <swiper-item class="resume">
+    <scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px">
+      <view class="resume_con">
+        <view  class="resume_con_sec">
+          <view class="resume_con_secinfo">
+            <view class="resume_con_secinfo-seq">7</view>
+            <view class="resume_con_secinfo-title">项目展示(部分)</view>
+          </view>
+
+
+          <view class="resume_con_education resume_con_work"  >
+
+
+
+
+
+            <rich-text class="resume_con_education-desc">{{introduction}}</rich-text>
+
+
+          </view>
+
+
+        </view> 
+        <text class="page">4/4</text>       
+      </view>
+
+    </scroll-view>
+
+
+  </swiper-item>          
 </swiper>
