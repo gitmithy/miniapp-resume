@@ -31,6 +31,10 @@
             <text class="resume_con_col-info">电话:  {{tel}}</text>
           </view>
           <view class="resume_con_col resume_con_col2">
+            <text class="resume_con_col-info">微信:  {{wx}}</text>
+            <text class="resume_con_col-info">GitHub:  {{git}}</text>
+          </view>          
+          <view class="resume_con_col resume_con_col2">
             <text class="resume_con_col-info">性别:  {{sex}}</text>
             <text class="resume_con_col-info">年龄:  {{age}}</text>
           </view>
@@ -274,7 +278,7 @@
         <view  class="resume_con_sec">
           <view class="resume_con_secinfo">
             <view class="resume_con_secinfo-seq">7</view>
-            <view class="resume_con_secinfo-title">开源项目</view>
+            <view class="resume_con_secinfo-title">git</view>
           </view>
 
 
