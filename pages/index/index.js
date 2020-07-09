@@ -30,15 +30,14 @@ Page({
       
       {name:"echarts",percent:65,color:"#28c581"},
       
-      {name:"小程序",percent:55,color:"#ff9165"},
+      {name:"miniapp",percent:55,color:"#ff9165"},
       {name:"uniapp",percent:55,color:"#28c581"},
-      {name:"koa",percent:55,color:"#28c581"},
-      {name:"node",percent:55,color:"#4ed9ff"},
-      {name:"typescript",percent:55,color:"#4ed9ff"},
-      {name:"docker",percent:55,color:"#ff9165"},
-      {name:"linux",percent:45,color:"#4ed9ff"},
-      {name:"react",percent:35,color:"#28c581"},
-      {name:"php",percent:35,color:"#4ed9ff"}
+      {name:"node",percent:25,color:"#4ed9ff"},
+      {name:"typescript",percent:25,color:"#4ed9ff"},
+      {name:"docker",percent:15,color:"#ff9165"},
+      {name:"linux",percent:15,color:"#4ed9ff"},
+      {name:"react",percent:15,color:"#28c581"},
+      {name:"php",percent:15,color:"#4ed9ff"}
     ],
     education:[
       {
