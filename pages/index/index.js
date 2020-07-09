@@ -12,28 +12,32 @@ Page({
     name:"郑开源",
     spell:"Zheng KaiYuan",
     job:"前端开发工程师",
-    exp:"5年开发经验3年前端经验",
+    exp:"",
     tel:"18800311889",
     sex:"男",
-    age:"26",
+    age:"27",
     wx:"VocaBerry",
     git:"gitmithy",
     email:"zky2109@live.com",
-    address:"上海市闵行区林恒路16号",
+    address:"上海市闵行区林恒路",
     skill:[
-      {name:"javascript",percent:85,color:"#ff9165"},
+      {name:"javascript",percent:75,color:"#ff9165"},
       {name:"html",percent:75,color:"#28c581"},
       {name:"css",percent:65,color:"#28c581"},
-      {name:"node",percent:55,color:"#4ed9ff"},
-      {name:"vue",percent:85,color:"#ff9165"},
-      {name:"react",percent:75,color:"#28c581"},
+      {name:"vue",percent:65,color:"#ff9165"},
+      
+      
+      
       {name:"echarts",percent:65,color:"#28c581"},
+      
+      {name:"小程序",percent:55,color:"#ff9165"},
+      {name:"uniapp",percent:55,color:"#28c581"},
+      {name:"koa",percent:55,color:"#28c581"},
+      {name:"node",percent:55,color:"#4ed9ff"},
       {name:"typescript",percent:55,color:"#4ed9ff"},
-      {name:"小程序",percent:85,color:"#ff9165"},
-      {name:"uniapp",percent:75,color:"#28c581"},
-      {name:"koa",percent:65,color:"#28c581"},
       {name:"docker",percent:55,color:"#ff9165"},
       {name:"linux",percent:45,color:"#4ed9ff"},
+      {name:"react",percent:35,color:"#28c581"},
       {name:"php",percent:35,color:"#4ed9ff"}
     ],
     education:[
@@ -73,7 +77,7 @@ Page({
         desc:`                属个人创业期间参与本地公司业务的推广和实施，根据客户需求定制PC，手机，微信端多端功能展示。
         在推广业务的过程中，积极向客户推广小程序业务的使用和实施
         期间个人进行了多个公司业务定制的开发和维护，针对客户的多种需求进行定向定制，诸如国际化，投稿平台，反馈平台等
-        在发展个人开发业务能力的同时，也发展了个人业务推广能力，谈判能力和后期运行维护能力`
+        在发展个人开发业务能力的同时，也发展了个人业务推广能力，后期运行维护能力`
       },
       {
         company:"武汉学点网络科技有限公司",
@@ -99,12 +103,32 @@ Page({
     ],
     project:[
       {
-        name:"xxxxxxx",
-        desc:"该电商系统是O2O类型的新零售电商系统，分为购物子系统、支付子系统、数据库子系统、安全子系统、库存子系统、物流子系统和财务子系统。该核心架构采用了Activiti、shiro、QuartZ、Sculptor Boot、jabdp、jee-weapp、RocketMQ、kafka、Selenium、Echart、Vue、Element-UI、Uni-App、Swagger、ElasticSearch、Druid、Zookeeper，数据平台选择的是两种MySQL集群(Replication、PXC)，由MyCat管理，同时对MyCat做双机热备。NoSQL采用的是Redis Cluster集群和MongoDB集群"
+        name:"ODB工作内容管理系统",
+        // desc:"该电商系统是O2O类型的新零售电商系统，
+        // 分为购物子系统、支付子系统、数据库子系统、安全子系统、库存子系统、物流子系统和财务子系统。
+        // 该核心架构采用了Activiti、shiro、QuartZ、Sculptor Boot、jabdp、jee-weapp、RocketMQ、kafka、Selenium、Echart、Vue、Element-UI、Uni-App、Swagger、ElasticSearch、Druid、Zookeeper，
+        // 数据平台选择的是两种MySQL集群(Replication、PXC)，由MyCat管理，同时对MyCat做双机热备。NoSQL采用的是Redis Cluster集群和MongoDB集群"
+        desc:"该系统为公司内部工作内容管理系统，使用vuex管理记录公司员工绩效信息，router进行各类页面跳转传参，axios后端拉取各类后台管理信息，echarts对员工绩效进行动态呈现。对员工信息进行绩效管理和考核的后台管理系统"
       },
       {
-        name:"XXXxxxxx",
-        desc:"该系统是针对中小学生提供的k13在线教育系统，采用的是视频点播形式，分为B/S形式和C/S形式。我主要负责的是教学视频管理业务。授课教师向K13平台上传教学视频后，经过专业人员剪辑之后，由K13平台调用腾讯云点播API接口，来实现在线转码和压缩，并且添加水印，最后生成防盗播的URL路径，渲染到HTML网页或者APP上面。该系统使用的技术栈包括springboot、springmvc、mybatis、springsecurity、kafka、QuartZ、Flowable，该系统最终部署在腾讯云平台"
+        name:"单页面互动答题应用",
+        desc:"麻雀虽小，五脏俱全。使用vuex管理记录答题信息，router进行答题页和结果页的跳转，axios提交成绩的vue应用,(开发中)，同时在设计师提供的设计页面进行各类针对性的动效开发和交互。"
+      },
+      {
+        name:"CMS系统二次开发定制",
+        desc:"个人创业期间针对现有cms程序进行二次开发，满足客户不同需求服务，诸如客户投递反馈，国际化配置，后台定制产品信息录入等功能开发。"
+      },
+      {
+        name:"仿有赞后台系统在线可互动管理界面",
+        desc:"公司要求下，进行有关微信系统界面下的可交互管理界面，实现了组件封装可复用性。实时编辑效果呈现，完成了诸如微信菜单编辑，自动回复编辑，图文菜单编辑等可交互编辑页面。"
+      },
+      {
+        name:"学点网络后台管理",
+        desc:"采用amazeui框架对公司微信管理系统界面进行定制，多页面制作，可复用js函数工具封装等"
+      },
+      {
+        name:"多种H5移动端页面。响应式PC，移动端整站开发",
+        desc:"采用各类最新动画工具对H5页面进行动效呈现。采用最新移动端响应式开发进行PC，移动端整站开发"
       }
     ],
     introduction:`
