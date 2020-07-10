@@ -219,7 +219,7 @@
 
           <view class="resume_con_secinfo">
             <view class="resume_con_secinfo-seq">7</view>
-            <view class="resume_con_secinfo-title">项目展示(部分)<text>更多请访问blog.miku.work项目页 密码admin</text>  </view>
+            <view class="resume_con_secinfo-title">项目展示(部分)<text>更多请访问blog.miku.work</text>  </view>
           </view>
 
 
@@ -231,7 +231,7 @@
                 <image src="https://blog.miku.work/5f02c60545d02.gif"  mode='widthFix' />
               </view>
               <view class="resume_con_panel-blockdesc">
-                <text class="resume_con_panel-blockdesctitle">vue</text>
+                <text class="resume_con_panel-blockdesctitle">沪上云课堂-问卷答题系统</text>
                 <text class="resume_con_panel-blockdescdesc">麻雀虽小，五脏俱全。使用vuex管理记录答题信息，router进行答题页和结果页的跳转，axios提交成绩的vue应用,(开发中)</text>
               </view>
             </view>
@@ -243,24 +243,98 @@
               </view>
               <view class="resume_con_panel-blockdesc">
                 <text class="resume_con_panel-blockdesctitle">问卷调查答题H5-移动端</text>
-                <text class="resume_con_panel-blockdesc"></text>
+                <text class="resume_con_panel-blockdescdesc"></text>
               </view>
             </view>
 
 
             <view class="resume_con_panel-block">
               <view class="resume_con_panel-blockimg">
-                <image src="../../img/work/3.jpg"  mode='widthFix' />
+                <image src="http://photo.miku.work/test8.gif"  mode='widthFix' />
               </view>
               <view class="resume_con_panel-blockdesc">
-                <text class="resume_con_panel-blockdesctitle"></text>
-                <text class="resume_con_panel-blockdesc"></text>
+                <text class="resume_con_panel-blockdesctitle">上海越剧院-整站</text>
+                <text class="resume_con_panel-blockdescdesc"></text>
+              </view>
+            </view>
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://blog.miku.work/5f02d9e023c00.png"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">上海消保委-整站</text>
+                <text class="resume_con_panel-blockdescdesc"></text>
+              </view>
+            </view>
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://blog.miku.work/5f02de256d94a.png"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">上海女性-整站</text>
+                <text class="resume_con_panel-blockdescdesc"></text>
+              </view>
+            </view>
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://photo.miku.work/test4.gif"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">-框架后台-学点网络后台</text>
+                <text class="resume_con_panel-blockdescdesc"></text>
+              </view>
+            </view>
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://photo.miku.work/test10.gif"  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">主旋律主题-可视化</text>
+                <text class="resume_con_panel-blockdescdesc"></text>
+              </view>
+            </view>
+           
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://photo.miku.work/test6.gif "  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">-ODB工作管理系统-个人绩效</text>
+                <text class="resume_con_panel-blockdescdesc">该系统为公司内部工作内容管理系统，使用vuex管理记录公司员工绩效信息，router进行各类页面跳转传参，axios后端拉取各类后台管理信息，echarts对员工绩效进行动态呈现。对员工信息进行绩效管理和考核的后台管理系统</text>
+              </view>
+            </view>
+
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://blog.miku.work/5f02c86ebbc2f.gif "  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">-ODB工作管理系统-部门管理</text>
+                <text class="resume_con_panel-blockdescdesc"></text>
+              </view>
+            </view>
+
+            <view class="resume_con_panel-block">
+              <view class="resume_con_panel-blockimg">
+                <image src="https://blog.miku.work/5f028fd5380ab.png "  mode='widthFix' />
+              </view>
+              <view class="resume_con_panel-blockdesc">
+                <text class="resume_con_panel-blockdesctitle">2018整站-vs音乐工作室</text>
+                <text class="resume_con_panel-blockdescdesc">整顿客户特殊行业需求，完成了国际化配置，客户反馈，作品播放展示等前端展示及后端录入系统</text>
               </view>
             </view>
 
 
 
-            
+
+
+
+
+
           </view>
 
 
@@ -302,7 +376,7 @@
               </view>
               <view class="resume_con_panel-blockdesc">
                 <text class="resume_con_panel-blockdesctitle">-框架后台-学点网络后台</text>
-                <text class="resume_con_panel-blockdesc"></text>
+                <text class="resume_con_panel-blockdescdesc">采用amazeui框架对公司微信管理系统界面进行定制，多页面制作，可复用js函数工具封装等</text>
               </view>
             </view>
 
@@ -313,7 +387,7 @@
               </view>
               <view class="resume_con_panel-blockdesc">
                 <text class="resume_con_panel-blockdesctitle">-框架后台-仿有赞微信编辑页面-快捷短语</text>
-                <text class="resume_con_panel-blockdesc"></text>
+                <text class="resume_con_panel-blockdescdesc">公司要求下，进行有关微信系统界面下的可交互管理界面，实现了组件封装可复用性。实时编辑效果呈现，完成了诸如微信菜单编辑，自动回复编辑，图文菜单编辑等可交互编辑页面。</text>
               </view>
             </view>
 
@@ -324,7 +398,7 @@
               </view>
               <view class="resume_con_panel-blockdesc">
                 <text class="resume_con_panel-blockdesctitle">-框架后台-仿有赞微信编辑页面-菜单编辑</text>
-                <text class="resume_con_panel-blockdesc"></text>
+                <text class="resume_con_panel-blockdescdesc"></text>
               </view>
             </view>
 
@@ -335,7 +409,7 @@
               </view>
               <view class="resume_con_panel-blockdesc">
                 <text class="resume_con_panel-blockdesctitle">-框架后台-仿有赞微信编辑页面-自动回复</text>
-                <text class="resume_con_panel-blockdesc"></text>
+                <text class="resume_con_panel-blockdescdesc"></text>
               </view>
             </view>
 
